@@ -1,11 +1,14 @@
 # TensorRT engine exporter  
-###Note: Following execution is to be performed on Jetson.   
+*Note: Following execution is to be performed on Jetson.*   
 
 ## a. Using bash script  
 This script exports model from keras h5 to Pb, ONNX and TRT engine format. These models are saved in exports/ directory.  
 
 Give executable permission for bash script  
-`$ chmod +x ./trt_engine_export`  
+```
+cd trt_engine
+chmod +x ./trt_engine_export
+```  
   
 Usage:  
 `./trt_engine_export /path/to/keras_model.h5 [batch_size, height, width, channel]`  
