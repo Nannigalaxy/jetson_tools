@@ -5,4 +5,4 @@
 - ### [TensorRT Engine Exporter](https://github.com/Nannigalaxy/jetson_tools/tree/main/trt_engine) 
 Exports model from keras h5 to Pb, ONNX and TRT engine format. 
 
-***Note: Any suggestions or support is appreciated.***
+***Note: Any contribution or suggestions is appreciated.***
